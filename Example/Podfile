@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftBubbles_Example' do
+  pod 'SwiftBubbles', :path => '../'
+
+  target 'SwiftBubbles_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
